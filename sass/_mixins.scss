@@ -1,0 +1,46 @@
+@function px-to-rem($size) {
+  $rem-size: $size / 16px;
+  @return #{$rem-size}rem;
+}
+
+@function px-to-em($px, $base: $base-font-size) {
+  @return ($px / $base) * 1em;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: px-to-em($size);
+}
+
+@mixin above($breakpoint) {
+  // > 320px
+  @if $breakpoint == '-' {
+    @media screen and (min-width: 20em) {
+      @content;
+    }
+  }
+  // > 480px
+  @else if $breakpoint == '--' {
+    @media screen and (min-width: 30em) {
+      @content;
+    }
+  }
+  // > 600px
+  @else if $breakpoint == '---' {
+    @media screen and (min-width: 37.5em) {
+      @content;
+    }
+  }
+  // > 800px
+  @else if $breakpoint == '----' {
+    @media screen and (min-width: 50em) {
+      @content;
+    }
+  }
+  // > 1024px
+  @else if $breakpoint == '-----' {
+    @media screen and (min-width: 64em) {
+      @content;
+    }
+  }
+}

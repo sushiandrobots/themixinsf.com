@@ -1,0 +1,260 @@
+////////////////////////////////////////////////
+//
+// Configuration
+//
+////////////////////////////////////////////////
+
+$base-font-size: 18px;
+
+$color-black: #222;
+$color-sass: #c6538c;
+$color-light-grey: #f1f1f1;
+
+$font-xxs: 12px;
+$font-xs: 14px;
+$font-s: 16px;
+$font-m: $base-font-size;
+$font-l: 20px;
+$font-xl: 24px;
+$font-xxl: 32px;
+
+$space-s: 5px;
+$space-m: 10px;
+$space-l: 20px;
+$space-xl: 40px;
+
+$body-padding: 20px;
+$body-max-width: 800px;
+$banner-height: 200px;
+$logomark-size: 175px;
+$event-date-width: 100px;
+
+////////////////////////////////////////////////
+//
+// Normalize ALL of the things!
+//
+////////////////////////////////////////////////
+
+@import 'normalize';
+
+////////////////////////////////////////////////
+//
+// Mixins
+//
+////////////////////////////////////////////////
+
+@import 'mixins';
+
+////////////////////////////////////////////////
+// 
+// Global
+//
+////////////////////////////////////////////////
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  
+  padding-left: $body-padding;
+  padding-left: px-to-rem($body-padding);
+  padding-right: $body-padding;
+  padding-right: px-to-rem($body-padding);
+  padding-bottom: 50px;
+  padding-bottom: px-to-em(50px);
+  
+  color: $color-black;
+  max-width: px-to-rem($body-max-width);
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+
+  @include above('--') {
+    font-size: 112.5%; // 18px
+  }
+
+  @include above('----') {
+    font-size: 125%; // 20px
+  }
+
+  @include above('-----') {
+    font-size: 137.5%; // 22px
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+p {
+  max-width: 30em;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700; 
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+a {
+  color: $color-sass;
+  text-decoration: none;
+  -webkit-transition: 0.5s color ease;
+  transition: 0.5s color ease;
+
+  &:hover {
+    color: lighten($color-sass, 15%);
+  }
+
+  &:visited {
+    color: darken($color-sass, 10%);
+  }
+}
+
+
+////////////////////////////////////////////////
+//
+// Masthead
+//
+////////////////////////////////////////////////
+
+.banner {
+  color: white;
+  background: $color-sass;
+  text-align: center;
+  text-transform: lowercase;
+  position: relative;
+  margin: 0 px-to-rem($body-padding * -1);
+  height: px-to-rem($banner-height);
+  line-height: px-to-rem($banner-height);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  @include font-size($font-xxl);
+  
+  @include above('----') {
+    margin: 0;
+  }
+  
+  // A psuedoelement creates the @ character
+  // behind the banner.
+  &::after {
+    content: '@';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: px-to-rem($banner-height * 0.8);
+    color: rgba(255, 255, 255, 0.1);
+    font-size: $logomark-size;
+    font-size: px-to-rem($logomark-size);
+    -webkit-transform: translateZ(0);
+    -webkit-transition-property: -webkit-transform, opacity;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 0.5;
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotateZ(5deg);
+    }
+  }
+
+}
+
+.banner__title {
+  margin: 0;
+  font-weight: 100;
+  position: relative;
+  z-index: 10;
+
+  a {
+    color: white;
+    display: block;
+  }
+}
+
+////////////////////////////////////////////////
+//
+// Byline
+//
+////////////////////////////////////////////////
+
+.byline {
+  text-align: center;
+  @include font-size($font-xl);
+
+  @include above('--') {
+    padding: 0 20%;
+  }
+
+  @include above('---') {
+    padding: 0 25%;
+  }
+
+}
+
+////////////////////////////////////////////////
+//
+// Events
+//
+////////////////////////////////////////////////
+
+.event {
+  margin-bottom: px-to-em($space-xl);
+
+  @include above('--') {
+    padding-left: $event-date-width + $space-l;
+  }
+}
+
+.event__date {
+  background: $color-light-grey;
+  padding: $space-s;
+  margin-bottom: $space-m;
+  margin-bottom: px-to-rem($space-m);
+
+  @include above('--') {
+    float: left;
+    width: $event-date-width;
+    margin-left: -($event-date-width + $space-l);
+  }
+
+}
+
+.event__month,
+.event__year {
+  display: block;
+  text-align: center;
+}
+
+.event__month {
+  @include font-size($font-xs);
+}
+
+.event__year {
+  @include font-size($font-xl);
+}
+
+.event__title {
+  display: inline-block;
+  margin-top: 0;
+  font-weight: 700;
+  @include font-size($font-m);
+}
+
+.event__content {
+  :first-child {
+    margin-top: 0;
+  }
+}
