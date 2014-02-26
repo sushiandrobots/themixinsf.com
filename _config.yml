@@ -1,0 +1,15 @@
+name: "The Mixin"
+description: "The Mixin is a Sass meetup based in San Francisco."
+url: "http://themixinsf.com"
+permalink: /event/:year/:month/:day/:title/
+
+exclude: [
+  'node_modules',
+  'sass',
+  'Gruntfile.js',
+  'package.json',
+  'README.md',
+  'Gemfile',
+  'Gemfile.lock',
+  'LICENSE'
+]

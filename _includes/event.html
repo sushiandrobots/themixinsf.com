@@ -1,0 +1,22 @@
+{% if post %}
+  {% assign page = post %}
+{% endif %}
+
+{% if page.content %}
+  {% assign content = page.content %}
+{% endif %}
+
+<article class="event">
+
+  <div class="event__date">
+    <span class="event__month">{{ page.date | date: '%B' }}</span>
+    <span class="event__year">{{ page.date | date: '%Y' }}</span>
+  </div>
+
+  <h1 class="event__title">{{ page.title }}</h1>
+  
+  <div class="event__content">
+    {{content}}
+  </div>
+
+</article>
