@@ -6,10 +6,14 @@ layout: default
 <hr>
 
 <section>
-  
+
   <h1>Upcoming Events</h1>
 
-  <p>Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+  {% for page in site.categories.event %}
+    {% if page.upcoming == true %}
+      {% include event-excerpt.html %}
+    {% endif %}
+  {% endfor %}
 
 </section>
 
@@ -22,11 +26,13 @@ layout: default
 </section>
 
 <section>
-  
+
   <h1>Past Events</h1>
 
   {% for page in site.categories.event %}
-    {% include event.html %}
+    {% unless page.upcoming == true %}
+      {% include event-excerpt.html %}
+    {% endunless %}
   {% endfor %}
 
 </section>

@@ -1,8 +1,6 @@
-////////////////////////////////////////////////
-//
+// -----------------------------------------------------------------------------
 // Configuration
-//
-////////////////////////////////////////////////
+// -----------------------------------------------------------------------------
 
 $base-font-size: 18px;
 
@@ -29,27 +27,21 @@ $banner-height: 200px;
 $logomark-size: 175px;
 $event-date-width: 100px;
 
-////////////////////////////////////////////////
-//
+// -----------------------------------------------------------------------------
 // Normalize ALL of the things!
-//
-////////////////////////////////////////////////
+// -----------------------------------------------------------------------------
 
 @import 'normalize';
 
-////////////////////////////////////////////////
-//
+// -----------------------------------------------------------------------------
 // Mixins
-//
-////////////////////////////////////////////////
+// -----------------------------------------------------------------------------
 
 @import 'mixins';
 
-////////////////////////////////////////////////
-// 
+// -----------------------------------------------------------------------------
 // Global
-//
-////////////////////////////////////////////////
+// -----------------------------------------------------------------------------
 
 * {
   box-sizing: border-box;
@@ -57,14 +49,14 @@ $event-date-width: 100px;
 
 body {
   margin: 0 auto;
-  
+
   padding-left: $body-padding;
   padding-left: px-to-rem($body-padding);
   padding-right: $body-padding;
   padding-right: px-to-rem($body-padding);
   padding-bottom: 50px;
   padding-bottom: px-to-em(50px);
-  
+
   color: $color-black;
   max-width: px-to-rem($body-max-width);
   font-family: 'Lato', sans-serif;
@@ -96,7 +88,7 @@ em {
 }
 
 strong {
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 hr {
@@ -119,12 +111,9 @@ a {
   }
 }
 
-
-////////////////////////////////////////////////
-//
+// -----------------------------------------------------------------------------
 // Masthead
-//
-////////////////////////////////////////////////
+// -----------------------------------------------------------------------------
 
 .banner {
   color: white;
@@ -138,11 +127,11 @@ a {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   @include font-size($font-xxl);
-  
+
   @include above('----') {
     margin: 0;
   }
-  
+
   // A psuedoelement creates the @ character
   // behind the banner.
   &::after {
@@ -184,11 +173,9 @@ a {
   }
 }
 
-////////////////////////////////////////////////
-//
-// Byline
-//
-////////////////////////////////////////////////
+// -----------------------------------------------------------------------------
+// By-line
+// -----------------------------------------------------------------------------
 
 .byline {
   text-align: center;
@@ -204,14 +191,12 @@ a {
 
 }
 
-////////////////////////////////////////////////
-//
+// -----------------------------------------------------------------------------
 // Events
-//
-////////////////////////////////////////////////
+// -----------------------------------------------------------------------------
 
 .event {
-  margin-bottom: px-to-em($space-xl);
+  margin-top: px-to-em($space-xl);
 
   @include above('--') {
     padding-left: $event-date-width + $space-l;
@@ -219,8 +204,61 @@ a {
 }
 
 .event__date {
-  background: $color-light-grey;
-  padding: $space-s;
+  margin-bottom: px-to-em($space-l);
+
+  @include above('--') {
+    float: left;
+    width: $event-date-width;
+    margin-left: -($event-date-width + $space-l);
+  }
+}
+
+.event__title {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.event__content {
+  :first-child {
+    margin-top: 0;
+  }
+}
+
+.event__link {
+  display: inline-block;
+  margin-top: 0;
+}
+
+// -----------------------------------------------------------------------------
+// Event Excerpts
+// -----------------------------------------------------------------------------
+
+.event-excerpt {
+  padding-bottom: px-to-rem($space-xl);
+  margin-bottom: px-to-rem($space-xl);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  @include above('--') {
+    padding-left: $event-date-width + $space-l;
+  }
+}
+
+.event-excerpt__title {
+  font-weight: 700;
+  @include font-size($font-m);
+}
+
+.event-excerpt__content {
+  @include font-size($font-s);
+}
+
+.event-excerpt__date {
   margin-bottom: $space-m;
   margin-bottom: px-to-rem($space-m);
 
@@ -229,32 +267,31 @@ a {
     width: $event-date-width;
     margin-left: -($event-date-width + $space-l);
   }
-
 }
 
-.event__month,
-.event__year {
+.event-excerpt__link {
+  margin-bottom: 0;
+}
+
+// -----------------------------------------------------------------------------
+// Date boxes
+// -----------------------------------------------------------------------------
+
+.date {
+  background: $color-light-grey;
+  padding: $space-s;
+}
+
+.date__month,
+.date__year {
   display: block;
   text-align: center;
 }
 
-.event__month {
+.date__month {
   @include font-size($font-xs);
 }
 
-.event__year {
+.date__year {
   @include font-size($font-xl);
-}
-
-.event__title {
-  display: inline-block;
-  margin-top: 0;
-  font-weight: 700;
-  @include font-size($font-m);
-}
-
-.event__content {
-  :first-child {
-    margin-top: 0;
-  }
 }
