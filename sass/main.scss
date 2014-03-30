@@ -234,8 +234,8 @@ a {
 // -----------------------------------------------------------------------------
 
 .event-excerpt {
-  padding-bottom: px-to-rem($space-xl);
-  margin-bottom: px-to-rem($space-xl);
+  padding-bottom: px-to-rem($space-m);
+  margin-bottom: px-to-rem($space-m);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 
   &:last-child {
@@ -246,6 +246,8 @@ a {
 
   @include above('--') {
     padding-left: $event-date-width + $space-l;
+    padding-bottom: px-to-rem($space-xl);
+    margin-bottom: px-to-rem($space-xl);
   }
 }
 
