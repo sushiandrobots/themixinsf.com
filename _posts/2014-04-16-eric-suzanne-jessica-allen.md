@@ -19,7 +19,7 @@ and animations using Sass with AngularJS*”
 
 # Host & Sponsor
 
-[Salesforce](http://salesforce.com)
+[Salesforce UX](https://twitter.com/salesforceux)
 
 # Emcees
 
