@@ -5,7 +5,6 @@ category: event
 summary: "Eric Suzanne, the creator of Susy, on “DISusy: your layout, our math”, and
 Jessica Allen on “Interactions
 and animations using Sass with AngularJS”"
-upcoming: true
 ---
 
 # Speakers
