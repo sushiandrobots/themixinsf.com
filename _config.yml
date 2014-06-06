@@ -13,3 +13,5 @@ exclude: [
   'Gemfile.lock',
   'LICENSE'
 ]
+
+markdown: kramdown

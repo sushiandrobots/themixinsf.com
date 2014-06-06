@@ -5,17 +5,32 @@ layout: default
 
 <hr>
 
-<section>
+<!--
+  Set a flag, hasUpcoming, to false, and then loop
+  through all posts, setting the flag to true if
+  an upcoming event was found.
+-->
 
-  <h1>Upcoming Events</h1>
+{% assign hasUpcoming = false %}
+{% for page in site.categories.event %}
+  {% if page.upcoming == true %}
+    {% assign hasUpcoming = true %}
+  {% endif %}
+{% endfor %}
 
-  {% for page in site.categories.event %}
-    {% if page.upcoming == true %}
-      {% include event-excerpt.html %}
-    {% endif %}
-  {% endfor %}
+{% if hasUpcoming == true %}
+  <section>
 
-</section>
+    <h1>Upcoming Events</h1>
+
+    {% for page in site.categories.event %}
+      {% if page.upcoming == true %}
+        {% include event-excerpt.html %}
+      {% endif %}
+    {% endfor %}
+
+  </section>
+{% endif %}
 
 <section>
 
