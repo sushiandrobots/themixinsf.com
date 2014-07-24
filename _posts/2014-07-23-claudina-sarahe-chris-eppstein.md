@@ -1,6 +1,5 @@
 ---
 layout: event
-upcoming: true
 title: "Claudina Sarahe & Chris Eppstein"
 category: event
 summary: "Claudina Sarahe, Co-creator of SassConf, NYCSass Meetup Organizer;
