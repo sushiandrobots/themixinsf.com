@@ -18,7 +18,7 @@ your CSS codebase”"
 
 [Adam Morse](http://mrmrs.cc/), product designer at
 [Salesforce](http://www.salesforce.com/):
-“*Visualizing your CSS codebase with ASTs, Sass, and Style Guides*”
+“*[Better CSS Authoring Tools](https://github.com/mrmrs/talk__better-tools-engine-yard)*”
 
 # Host & Sponsor
 
