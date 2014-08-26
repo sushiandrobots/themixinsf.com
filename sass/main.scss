@@ -297,3 +297,13 @@ a {
 .date__year {
   @include font-size($font-xl);
 }
+
+// -----------------------------------------------------------------------------
+// Contentinfo
+// -----------------------------------------------------------------------------
+
+.contentinfo {
+  margin: 2em px-to-rem($body-padding * -1);
+  border-top: 1px solid #ccc;
+}
+}
