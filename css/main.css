@@ -488,3 +488,10 @@ a {
 .date__year {
   font-size: 24px;
   font-size: 1.33333em; }
+
+.contentinfo {
+  margin: 3em -1.25rem 0;
+  border-top: 1px solid #eee;
+  padding: 1em 0;
+  font-size: 14px;
+  font-size: 0.77778em; }
