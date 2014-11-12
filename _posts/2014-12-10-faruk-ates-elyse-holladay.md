@@ -9,9 +9,9 @@ and Elyse Holladay, front-end architect, teacher, and speaker"
 
 # Speakers
 
-[Faruk Ateş](farukat.es), creator of Modernizr and co-founder of Presentate & One Web for All
+[Faruk Ateş](http://farukat.es), creator of Modernizr and co-founder of Presentate & One Web for All
 
-[Elyse Holladay](www.elyseholladay.com), front-end architect, teacher, and speaker
+[Elyse Holladay](http://www.elyseholladay.com), front-end architect, teacher, and speaker
 
 # Host
 
