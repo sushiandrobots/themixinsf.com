@@ -21,3 +21,5 @@ and Elyse Holladay, front-end architect, teacher, and speaker"
 
 [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/)
 
+<a href="http://www.eventbrite.com/e/the-mixin-sf-sass-meet-up-registration-14310802997?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=14310802997" alt="Eventbrite - The Mixin: SF Sass Meet Up" /></a>
+
