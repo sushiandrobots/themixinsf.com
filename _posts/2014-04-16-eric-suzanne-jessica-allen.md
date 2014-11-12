@@ -23,6 +23,6 @@ organizer for the Denver Sass Meet Up:
 
 [Salesforce UX](https://twitter.com/salesforceux)
 
-# Emcee
+# Emcees
 
 [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/)
