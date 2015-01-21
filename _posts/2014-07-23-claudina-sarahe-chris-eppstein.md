@@ -7,19 +7,20 @@ and Chris Eppstein, Sass core team member, Compass creator, LinkedIn Enginner,
 on “Sass 3.4”"
 ---
 
-# Speakers
+---
 
-[Claudina Sarahe](http://itsmisscs.me), Co-creator of SassConf, NYCSass Meetup
-Organizer
+# [Claudina Sarahe](http://itsmisscs.me)
+Co-creator of SassConf, NYCSass Meetup Organizer
+: “*Getting into a Componentized Mindset*”
 
-[Chris Eppstein](http://chriseppstein.github.io), Sass core team member,
-Compass creator, LinkedIn Enginner:
-“*[What&rsquo;s New in Sass & Compass?](http://sass-3-3-presentation.herokuapp.com)*”
+---
 
-# Host
+# [Chris Eppstein](http://chriseppstein.github.io)
+Sass core team member, Compass creator, LinkedIn Enginner:
+: “*[What&rsquo;s New in Sass & Compass?](http://sass-3-3-presentation.herokuapp.com)*”
 
-[Salesforce UX](https://twitter.com/salesforceux)
+---
 
-# Emcee
-
-[Jina](http://jina.me/)
+## Event Team
+* [Jina](http://jina.me/) — Emcee
+* [Salesforce UX](https://twitter.com/salesforceux) — Host

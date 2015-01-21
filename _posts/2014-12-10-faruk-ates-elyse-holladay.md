@@ -2,24 +2,25 @@
 layout: event
 title: "Faruk Ateş & Elyse Holladay"
 category: event
-upcoming: true
 summary: "Faruk Ateş, creator of Modernizr and co-founder of Presentate & One Web for All;
 and Elyse Holladay, front-end architect, teacher, and speaker"
 ---
 
-# Speakers
+---
 
-[Faruk Ateş](http://farukat.es), creator of Modernizr and co-founder of Presentate & One Web for All
+# [Faruk Ateş](http://farukat.es)
+Creator of Modernizr and co-founder of Presentate & One Web for All
+: “*Make Sass Work for You in 2015!*”
 
-[Elyse Holladay](http://www.elyseholladay.com), front-end architect, teacher, and speaker
+---
 
-# Host
+# [Elyse Holladay](http://www.elyseholladay.com)
+Front-end architect, teacher, and speaker:
+: “*[Front-End Architecture](http://elyseholladay.github.io/front-end-arch-talk/#/)*”
 
-[Heroku](http://heroku.com)
+---
 
-# Emcee
-
-[Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/)
-
-<a href="http://www.eventbrite.com/e/the-mixin-sf-sass-meet-up-registration-14310802997?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=14310802997" alt="Eventbrite - The Mixin: SF Sass Meet Up" /></a>
-
+## Event Team
+* [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) — Emcees
+* [Heroku](http://heroku.com) — Host
+* [Salesforce UX](http://twitter.com/salesforceux) — Additional Staffing

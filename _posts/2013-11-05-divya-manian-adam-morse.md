@@ -6,24 +6,20 @@ summary: "Divya Manian on “Unmasking the GPU” and Adam Morse on “Visualizi
 your CSS codebase”"
 ---
 
-# Speakers
+---
 
-[Divya Manian](http://nimbupani.com/), web developer at
-[Adobe](http://html.adobe.com/) (also known from
-[HTML5 Please](http://html5please.com/),
-[HTML5 Boilerplate](http://html5boilerplate.com/),
-[w3 Fools](http://w3fools.com/), and
-[Move the Web Forward](http://movethewebforward.org/)):
-“*[Unmasking the GPU: Using Hardware Acceleration Correctly with CSS](http://nimbu.in/html5devconf-oct/#/step-1)*”
+# [Divya Manian](http://nimbupani.com/)
+Web developer at [Adobe](http://html.adobe.com/) (also known from [HTML5 Please](http://html5please.com/), [HTML5 Boilerplate](http://html5boilerplate.com/), [w3 Fools](http://w3fools.com/), and [Move the Web Forward](http://movethewebforward.org/)):
+: “*[Unmasking the GPU: Using Hardware Acceleration Correctly with CSS](http://nimbu.in/html5devconf-oct/#/step-1)*”
 
-[Adam Morse](http://mrmrs.cc/), product designer at
-[Salesforce](http://www.salesforce.com/):
-“*[Better CSS Authoring Tools](https://github.com/mrmrs/talk__better-tools-engine-yard)*”
+---
 
-# Host & Sponsor
+# [Adam Morse](http://mrmrs.cc/)
+Lead product designer at [Salesforce](http://www.salesforce.com/):
+: “*[Better CSS Authoring Tools](https://github.com/mrmrs/talk__better-tools-engine-yard)*”
 
-[Engine Yard](http://engineyard.com/)
+---
 
-# Emcees
-
-[Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/)
+## Event Team
+* [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) — Emcees
+* [Engine Yard](http://engineyard.com/) — Host & Sponsor

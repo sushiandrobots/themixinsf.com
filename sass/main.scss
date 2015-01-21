@@ -308,3 +308,5 @@ a {
   padding: 1em 0;
   @include font-size($font-xs);
 }
+
+section { padding-bottom: 1em; }
