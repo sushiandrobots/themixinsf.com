@@ -23,4 +23,4 @@ Accessibility Specialist & UX Cartoonist, Salesforce UX
 
 ## Event Team
 * [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) — Emcees
-* [Salesforce UX](http://twitter.com/salesforceux) — Host
+* [Salesforce UX](http://twitter.com/salesforceux) — Host & Sponsor
