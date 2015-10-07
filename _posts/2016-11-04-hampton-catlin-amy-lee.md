@@ -23,5 +23,5 @@ UX engineer, Salesforce
 ---
 
 ## Event Team
-* [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) — Emcees
+* [Jina](http://twitter.com/jina), [Mike Fowler](http://twitter.com/michaelrfowler),  & [Kaelig](http://twitter.com/kaelig) — Organizers & Emcees
 * [Salesforce UX](http://twitter.com/salesforceux) — Host & Sponsor
