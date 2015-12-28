@@ -2,7 +2,6 @@
 layout: event
 title: "Hampton Catlin & Amy Lee"
 category: event
-upcoming: true
 summary: "Hampton Catlin, co-founder Wordset, inventor of Sass; and Amy Lee, lead UX engineer, Salesforce"
 ---
 
