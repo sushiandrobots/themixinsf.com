@@ -1,0 +1,31 @@
+team:
+  - name: Jina Anne
+    role: Organizer, emcee
+    twitter: jina
+  - name: Kaelig Deloumeau-Prigent
+    role: Sass community update
+    twitter: kaelig
+
+thanks:
+  - name: Michael Fowler for original site design and helping with organizing in the past
+
+markup:
+  - name: HTML5
+  - name: Erb
+  - name: Haml
+  - name: Markdown
+
+style:
+  - name: CSS3
+  - name: Sass
+  - name: Normalize
+
+behavior:
+  - name: Modernizr
+  - name: jQuery
+
+misc:
+  - name: Middleman
+  - name: HTML5 Boilerplate
+  - name: GitHub
+  - name: Sublime Text

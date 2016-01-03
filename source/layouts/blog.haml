@@ -1,0 +1,10 @@
+= wrap_layout :layout do
+  %article.event
+    .event__date.date
+      %span.date__month= current_article.date.strftime('%B %d')
+
+      %span.date__year= current_article.date.strftime('%Y')
+
+    %h1.event__title= link_to current_article.title, current_article
+
+    .event__content= yield

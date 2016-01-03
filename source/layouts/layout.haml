@@ -1,0 +1,22 @@
+= wrap_layout :scaffold do
+  %header.banner(role='banner')
+    %h1.banner__title= link_to 'The Mixin', '/'
+
+  %main#main(role='main')= yield
+
+  %footer(role='contentinfo' class='contentinfo')
+
+    %h2 Code of Conduct
+
+    %p
+      The Mixin adheres to the
+      = succeed '.' do
+        = link_to 'Sass Community Guidelines', 'http://sass-lang.com/community-guidelines'
+      We take them very seriously and they will be enforced at the event.
+
+    %p
+      If you feel like the Sass Community Guidelines have been breached,
+      please notify
+      = link_to 'twitter', 'http://twitter.com/jina'
+      right away.
+

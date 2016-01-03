@@ -1,0 +1,52 @@
+---
+pageable: true
+per_page: 10
+---
+
+%p.byline
+  %em The Mixin
+  is a San Francisco
+  = link_to 'Sass', 'http://sass-lang.com/'
+  & front-end meetup.
+
+- if paginate && num_pages > 1
+  %p
+    Page
+    = page_number
+    of
+    = num_pages
+
+  - if prev_page
+    %p= link_to 'Previous page', prev_page
+
+%section
+  %h1 Events
+
+- page_articles.each_with_index do |article, i|
+  %article.event-excerpt
+    .event-excerpt__date.date
+      %span.date__month= article.date.strftime('%B %d')
+
+      %span.date__year= article.date.strftime('%Y')
+
+    %h1.event-excerpt__title= link_to article.title, article
+
+    .event-excerpt__content= article.summary(250)
+
+    %p.event-excerpt__link= link_to 'More info...', article
+
+%section
+  %h1 Get Involved
+
+  %p
+    Want to help out by volunteering, speaking, hosting or sponsoring?
+    Contact
+    = link_to 'Jina', 'http://twitter.com/jina'
+    or
+    = succeed '.' do
+      = link_to 'Kaelig', 'http://twitter.com/kaelig'
+
+- if paginate
+
+  - if next_page
+    %p= link_to 'Next page', next_page
