@@ -2,7 +2,7 @@
 title: "Henri Helvetica & Surprise speaker"
 ---
 
-Come hang out with us for The Mixin, a San Francisco [Sass][]
+Come hang out with us for this 11th edition of The Mixin, a San Francisco [Sass][]
 & front-end meet up.
 
 [sass]: http://sass-lang.com
@@ -16,13 +16,15 @@ Tweeting about this event? Use hashtag: [#mixin112016][hashtag]
 
 For this event, we’re excited to have the following talks:
 
-* "**The hateful weight**"
+* “**The hateful weight**”
   by [Henri Helvetica](https://twitter.com/HenriHelvetica):
   _The web’s growing complexities has made for complex metrics, but the most
   comprehensible metric remains the page weight.
   THE HATEFUL WEIGHT looks at image formats and their impact on browsing in a new world._
-* "**Surprise talk**"
-  by surprise speaker
+* “**Design Tokens in Design Systems**”
+  by [Jina Anne](https://twitter.com/jina, Lead Designer, Design Systems, Salesforce
+* “**Sass community update**”
+  by [Kaelig](https://twitter.com/kaelig), Developer, Design Systems, Salesforce
 
 
 ## About Henri Helvetica
