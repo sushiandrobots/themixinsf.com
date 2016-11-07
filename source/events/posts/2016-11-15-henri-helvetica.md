@@ -12,6 +12,8 @@ Tweeting about this event? Use hashtag: [#mixin112016][hashtag]
 
 [hashtag]: https://twitter.com/search?q=#mixin112016
 
+**[Register on Eventbrite][tickets]**
+
 ## Presentations
 
 For this event, we’re excited to have the following talks:
@@ -55,3 +57,7 @@ families.
 Backed by Sequoia, Google Ventures and more.
 
 We’re growing quickly, so [check out how you can be part of our mission](https://www.plangrid.com/jobs/).
+
+**[Register on Eventbrite][tickets]**
+
+[tickets]: https://www.eventbrite.com/e/the-mixin-sf-sass-frontend-meet-up-registration-29229103034
