@@ -24,7 +24,7 @@ For this event, we’re excited to have the following talks:
   comprehensible metric remains the page weight.
   THE HATEFUL WEIGHT looks at image formats and their impact on browsing in a new world._
 * “**Design Tokens in Design Systems**”
-  by [Jina Anne](https://twitter.com/jina, Lead Designer, Design Systems, Salesforce
+  by [Jina Anne](https://twitter.com/jina), Lead Designer, Design Systems, Salesforce
 * “**Sass community update**”
   by [Kaelig](https://twitter.com/kaelig), Developer, Design Systems, Salesforce
 
