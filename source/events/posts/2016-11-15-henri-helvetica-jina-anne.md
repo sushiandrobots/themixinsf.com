@@ -1,5 +1,5 @@
 ---
-title: "Henri Helvetica & Surprise speaker"
+title: "Henri Helvetica & Jina Anne"
 ---
 
 Come hang out with us for this 11th edition of The Mixin, a San Francisco [Sass][]
@@ -50,7 +50,7 @@ Massive thanks to PlanGrid who is sponsoring The Mixin for the very first time!
 [PlanGrid](https://www.plangrid.com/) (YC 2012) is the leader in construction
 field productivity software (think: version control for blueprints).
 Our platform increases efficiency and lowers costs for the biggest projects
-($1B+) worldwide--many of which you’ve heard of--and enable some of the hardest
+($1B+) worldwide – many of which you’ve heard of – and enable some of the hardest
 working people around to spend less time at work and more time with their
 families.
 
