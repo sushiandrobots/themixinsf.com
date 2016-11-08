@@ -12,6 +12,7 @@ activate :blog do |blog|
   blog.day_link          = '{year}/{month}/{day}.html'
 
   blog.calendar_template = 'calendar.html'
+  blog.tag_template      = 'tag.html'
   blog.layout            = 'blog'
 
   blog.summary_separator = /(READMORE)/
