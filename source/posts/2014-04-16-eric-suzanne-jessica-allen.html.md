@@ -27,5 +27,5 @@ This time, we're excited to have the following talks:
 [presentationB]: https://speakerdeck.com/jessicaspacekat/an-introduction-to-designing-css-transitions-using-angularjs
 
 ## Event Team
-* [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) --- Emcees
+* [Jina](http://jina.me/) & [Mike](http://mikefowler.me/) --- Emcees
 * [Salesforce UX](https://twitter.com/salesforceux) --- Host & Sponsor

@@ -19,7 +19,7 @@ This time, we're excited to have the following talks:
   by [Nicole Sullivan](http://www.stubbornella.org/), web developer, Pivotal
   Software, creator [Object-Oriented
   CSS](https://github.com/stubbornella/oocss)
-* '**[@mdo-ular CSS][presentationB]**'
+* "**[@mdo-ular CSS][presentationB]**"
   by [Mark Otto](http://markdotto.com/), designer, GitHub, creator
   [Bootstrap](http://getbootstrap.com/)
 
@@ -27,5 +27,5 @@ This time, we're excited to have the following talks:
 [presentationB]: https://speakerdeck.com/mdo/at-mdo-ular-css
 
 ## Event Team
-* [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) --- Emcees
+* [Jina](http://jina.me/) & [Mike](http://mikefowler.me/) --- Emcees
 * [Airbnb](http://airbnb.com) --- Host & Sponsor

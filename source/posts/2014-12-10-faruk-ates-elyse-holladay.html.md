@@ -25,6 +25,6 @@ This time, we're excited to have the following talks:
 [presentationB]: http://elyseholladay.github.io/front-end-arch-talk/#/
 
 ## Event Team
-* [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) --- Emcees
+* [Jina](http://jina.me/) & [Mike](http://mikefowler.me/) --- Emcees
 * [Heroku](http://heroku.com) --- Host
 * [Salesforce UX](http://twitter.com/salesforceux) --- Additional Staffing

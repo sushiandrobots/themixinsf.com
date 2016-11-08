@@ -7,7 +7,7 @@ Come hang out with us for this 11th edition of The Mixin, a San Francisco [Sass]
 
 [sass]: http://sass-lang.com
 
-We’ll have a great talk and a surprise talk, and as always: food and drinks.
+We’ll have great talks, and as always: food and drinks.
 Tweeting about this event? Use hashtag: [#mixin112016][hashtag]
 
 [hashtag]: https://twitter.com/search?q=#mixin112016

@@ -19,7 +19,7 @@ This time, we're excited to have the following talks:
   by [Hampton Catlin](http://www.hamptoncatlin.com/), co-founder,
   [Wordset](http://wordset.org), inventor [Sass](http://sass-lang.com)
   CSS](https://github.com/stubbornella/oocss)
-* '**UI Motion & the Lightning Design System**'
+* "**UI Motion & the Lightning Design System**"
   by [Amy Lee](http://twitter.com/amster), UX engineer, Salesforce
 
 ## Event Team

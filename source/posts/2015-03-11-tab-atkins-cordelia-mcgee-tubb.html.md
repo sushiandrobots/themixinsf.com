@@ -26,6 +26,6 @@ This time, we're excited to have the following talks:
 [presentationB]: http://cordeliadillon.com/talks/TheMixin/accessibility/IveBeenDoingThisWrong.pdf
 
 ## Event Team
-* [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) --- Emcees
+* [Jina](http://jina.me/) & [Mike](http://mikefowler.me/) --- Emcees
 * [Salesforce UX](http://twitter.com/salesforceux) --- Host & Sponsor
 * [Presentate](http://presentate.com) --- Partner

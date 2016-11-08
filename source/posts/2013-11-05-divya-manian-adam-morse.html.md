@@ -30,5 +30,5 @@ This time, we're excited to have the following talks:
 [presentationB]: https://github.com/mrmrs/talk__better-tools-engine-yard
 
 ## Event Team
-* [Jina](http://jina.me/) & [Mike Fowler](http://mikefowler.me/) --- Emcees
+* [Jina](http://jina.me/) & [Mike](http://mikefowler.me/) --- Emcees
 * [Engine Yard](http://engineyard.com/) --- Host & Sponsor

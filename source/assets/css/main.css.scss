@@ -92,6 +92,7 @@ strong {
 }
 
 hr {
+  margin: 2rem 0;
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -110,6 +111,8 @@ a {
     color: darken($color-sass, 10%);
   }
 }
+
+article { padding: 2rem 0; }
 
 // -----------------------------------------------------------------------------
 // Masthead
@@ -234,9 +237,6 @@ a {
 // -----------------------------------------------------------------------------
 
 .event-excerpt {
-  padding-bottom: px-to-rem($space-m);
-  margin-bottom: px-to-rem($space-m);
-
   &:last-child {
     border-bottom: none;
     margin-bottom: 0;
@@ -245,9 +245,6 @@ a {
 
   @include above('--') {
     padding-left: $event-date-width + $space-l;
-    padding-bottom: px-to-rem($space-xl);
-    margin-bottom: px-to-rem($space-xl);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 }
 
@@ -280,6 +277,7 @@ a {
 // -----------------------------------------------------------------------------
 
 .date {
+  margin-top: 1rem;
   background: $color-light-grey;
   padding: $space-s;
 }
@@ -308,5 +306,3 @@ a {
   padding: 1em 0;
   @include font-size($font-xs);
 }
-
-section { padding-bottom: 1em; }
