@@ -5,22 +5,24 @@ Time.zone = 'US/Pacific'
 Tilt::SYMBOL_ARRAY_SORTABLE = false
 
 activate :blog do |blog|
-  blog.permalink         = '{year}/{month}/{day}/{title}.html'
-  blog.sources           = 'posts/{year}-{month}-{day}-{title}.html'
-  blog.year_link         = '{year}.html'
-  blog.month_link        = '{year}/{month}.html'
-  blog.day_link          = '{year}/{month}/{day}.html'
+  blog.permalink            = '{year}/{month}/{day}/{title}.html'
+  blog.sources              = 'posts/{year}-{month}-{day}-{title}.html'
+  blog.year_link            = '{year}.html'
+  blog.month_link           = '{year}/{month}.html'
+  blog.day_link             = '{year}/{month}/{day}.html'
 
-  blog.calendar_template = 'calendar.html'
-  blog.tag_template      = 'tag.html'
-  blog.layout            = 'blog'
+  blog.calendar_template    = 'calendar.html'
+  blog.tag_template         = 'tag.html'
+  blog.layout               = 'blog'
 
-  blog.summary_separator = /(READMORE)/
-  blog.summary_length    = 250
-  blog.default_extension = '.md'
-  blog.paginate          = true
-  blog.per_page          = 10
-  blog.page_link         = 'page/{num}'
+  blog.summary_separator    = /(READMORE)/
+  blog.summary_length       = 250
+  blog.default_extension    = '.md'
+  blog.paginate             = true
+  blog.per_page             = 10
+  blog.page_link            = 'page/{num}'
+
+  blog.publish_future_dated = true
 end
 activate :deploy do |deploy|
   deploy.deploy_method = :git
