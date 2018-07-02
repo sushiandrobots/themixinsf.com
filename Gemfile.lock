@@ -140,8 +140,8 @@ DEPENDENCIES
   middleman-livereload (~> 3.4.6)
   middleman-minify-html (~> 3.4.1)
   middleman-sprockets (~> 4.1.0)
-  nokogiri (~> 1.6.8.1)
+  nokogiri (~> 1.6.8)
   redcarpet (~> 3.3.4)
 
 BUNDLED WITH
-   1.12.5
+   1.16.2

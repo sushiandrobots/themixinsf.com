@@ -83,6 +83,10 @@ p {
   max-width: 30em;
 }
 
+li + li {
+  margin-top: 1rem;
+}
+
 em {
   font-style: italic;
 }
