@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jina Anne -- Organizer, emcee -- @jina
+    Kaelig Deloumeau-Prigent -- Sass community update -- @kaelig
+
+# THANKS
+
+    Michael Fowler for original site design and helping with organizing in the past
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, Erb, Haml, Markdown, 
+    CSS3, Sass, Normalize, 
+    Modernizr, jQuery, 
+    Middleman, HTML5 Boilerplate, GitHub, Sublime Text, iTerm
