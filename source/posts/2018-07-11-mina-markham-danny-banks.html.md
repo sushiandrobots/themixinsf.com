@@ -1,5 +1,5 @@
 ---
-title: "Diana Mounter & Danny Banks"
+title: "Mina Markham & Danny Banks"
 ---
 
 Come hang out with us for this 12th edition of The Mixin, a San Francisco [Sass][]
@@ -18,8 +18,8 @@ Use hashtag: [#mixin112016][hashtag]
 
 For this event, we’re excited to have the following talks:
 
-* “**TBD**” --
-  [Diana Mounter](https://twitter.com/brocollini), Design System Manager, GitHub
+* “**CSS Grid**” --
+  [Mina Markham](https://twitter.com/minamarkham), Software Engineer, Slack
 * “**Cross-Platform Styles with Style Dictionary**” --
   [DannyBanks](https://twitter.com/dbanksdesign), Senior UX Designer, Amazon
 * “**The State of Sass (community update) & The Mixin Co-Organizer**”
