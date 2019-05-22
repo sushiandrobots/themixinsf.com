@@ -5,16 +5,64 @@
   <id>http://themixinsf.com/</id>
   <link href="http://themixinsf.com/"/>
   <link href="http://themixinsf.com/feed.xml" rel="self"/>
-  <updated>2018-07-11T00:00:00-07:00</updated>
+  <updated>2019-06-04T00:00:00-07:00</updated>
   <author>
     <name>The Mixin</name>
   </author>
+  <entry>
+    <title>Sarah Federman &amp; Jina Anne</title>
+    <link rel="alternate" href="http://themixinsf.com/2019/06/04/sarah-federman-jina-anne/"/>
+    <id>http://themixinsf.com/2019/06/04/sarah-federman-jina-anne/</id>
+    <published>2019-06-04T00:00:00-07:00</published>
+    <updated>2019-05-22T11:54:18-07:00</updated>
+    <author>
+      <name>The Mixin</name>
+    </author>
+    <summary type="html">&lt;p&gt;Come hang out with us for this 13th edition of The Mixin, a San Francisco &lt;a href="http://sass-lang.com"&gt;Sass&lt;/a&gt;
+&amp;amp; front-end meet up.&lt;/p&gt;
+
+&lt;p&gt;We’ll have great talks. Tweeting about this event?
+Use hashtag: &lt;a href="https://twitter.com/search?q=#mixin062019"&gt;#mixin062019&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://themixin0619.eventbrite.com"&gt;Register on Eventbrite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id="presentations"&gt;Presentations&lt;/h2&gt;
+
+&lt;p&gt;For this event, we’re excited...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Come hang out with us for this 13th edition of The Mixin, a San Francisco &lt;a href="http://sass-lang.com"&gt;Sass&lt;/a&gt;
+&amp;amp; front-end meet up.&lt;/p&gt;
+
+&lt;p&gt;We’ll have great talks. Tweeting about this event?
+Use hashtag: &lt;a href="https://twitter.com/search?q=#mixin062019"&gt;#mixin062019&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://themixin0619.eventbrite.com"&gt;Register on Eventbrite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id="presentations"&gt;Presentations&lt;/h2&gt;
+
+&lt;p&gt;For this event, we’re excited to have the following talks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“&lt;strong&gt;TBD&lt;/strong&gt;” &amp;ndash;
+&lt;a href="https://twitter.com/sarahfederman"&gt;Sarah Federman&lt;/a&gt;,  Sr Frontend Developer, Design Systems at Atlassian&lt;/li&gt;
+&lt;li&gt;“&lt;strong&gt;The State of Sass (community update) &amp;amp; The Mixin Co-Organizer&lt;/strong&gt;”
+&lt;a href="https://twitter.com/kaelig"&gt;Kaelig&lt;/a&gt;, Design Systems Developer at Shopify&lt;/li&gt;
+&lt;li&gt;“&lt;strong&gt;Sass Website Update&lt;/strong&gt;” &amp;amp; Emcee &amp;amp; The Mixin Founder &amp;amp; Lead Organizer &amp;ndash;
+&lt;a href="https://twitter.com/jina"&gt;Jina Anne&lt;/a&gt;, Design Systems Advocate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="thanks-shopify"&gt;Thanks Shopify&lt;/h3&gt;
+
+&lt;p&gt;Massive thanks to &lt;a href="https://www.shopify.com/"&gt;Shopify&lt;/a&gt; who is hosting The Mixin!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://themixin0619.eventbrite.com"&gt;Register on Eventbrite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Mina Markham &amp; Danny Banks</title>
     <link rel="alternate" href="http://themixinsf.com/2018/07/11/mina-markham-danny-banks/"/>
     <id>http://themixinsf.com/2018/07/11/mina-markham-danny-banks/</id>
     <published>2018-07-11T00:00:00-07:00</published>
-    <updated>2018-10-31T14:17:01-07:00</updated>
+    <updated>2019-05-22T11:54:25-07:00</updated>
     <author>
       <name>The Mixin</name>
     </author>
@@ -22,7 +70,7 @@
 &amp;amp; front-end meet up.&lt;/p&gt;
 
 &lt;p&gt;We’ll have great talks. Tweeting about this event?
-Use hashtag: &lt;a href="https://twitter.com/search?q=#mixin071118"&gt;#mixin112016&lt;/a&gt;&lt;/p&gt;
+Use hashtag: &lt;a href="https://twitter.com/search?q=#mixin112016"&gt;#mixin112016&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href="http://mixin071118.eventbrite.com/"&gt;Register on Eventbrite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -33,7 +81,7 @@ Use hashtag: &lt;a href="https://twitter.com/search?q=#mixin071118"&gt;#mixin112
 &amp;amp; front-end meet up.&lt;/p&gt;
 
 &lt;p&gt;We’ll have great talks. Tweeting about this event?
-Use hashtag: &lt;a href="https://twitter.com/search?q=#mixin071118"&gt;#mixin112016&lt;/a&gt;&lt;/p&gt;
+Use hashtag: &lt;a href="https://twitter.com/search?q=#mixin112016"&gt;#mixin112016&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href="http://mixin071118.eventbrite.com/"&gt;Register on Eventbrite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -270,52 +318,6 @@ by &lt;a href="http://markdotto.com/"&gt;Mark Otto&lt;/a&gt;, designer, GitHub, 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://jina.me/"&gt;Jina&lt;/a&gt; &amp;amp; &lt;a href="http://mikefowler.me/"&gt;Mike&lt;/a&gt; &amp;mdash; Emcees&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://airbnb.com"&gt;Airbnb&lt;/a&gt; &amp;mdash; Host &amp;amp; Sponsor&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Tab Atkins &amp; Cordelia McGee-Tubb</title>
-    <link rel="alternate" href="http://themixinsf.com/2015/03/11/tab-atkins-cordelia-mcgee-tubb/"/>
-    <id>http://themixinsf.com/2015/03/11/tab-atkins-cordelia-mcgee-tubb/</id>
-    <published>2015-03-11T00:00:00-07:00</published>
-    <updated>2018-10-31T14:15:07-07:00</updated>
-    <author>
-      <name>The Mixin</name>
-    </author>
-    <summary type="html">&lt;p&gt;Come hang out with us for The Mixin, our 7&lt;sup&gt;th&lt;/sup&gt; San Francisco &lt;a href="http://sass-lang.com"&gt;Sass&lt;/a&gt;
-&amp;amp; front-end meet up.&lt;/p&gt;
-
-&lt;p&gt;We’ll have a couple talks by 2 rad speakers, plus some food and drinks.
-Tweeting about this event? Use hashtag: &lt;a href="https://twitter.com/search?q=#themixin"&gt;#themixin&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="presentations"&gt;Presentations&lt;/h2&gt;
-
-&lt;p&gt;This time, we’re excited...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Come hang out with us for The Mixin, our 7&lt;sup&gt;th&lt;/sup&gt; San Francisco &lt;a href="http://sass-lang.com"&gt;Sass&lt;/a&gt;
-&amp;amp; front-end meet up.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ll have a couple talks by 2 rad speakers, plus some food and drinks.
-Tweeting about this event? Use hashtag: &lt;a href="https://twitter.com/search?q=#themixin"&gt;#themixin&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="presentations"&gt;Presentations&lt;/h2&gt;
-
-&lt;p&gt;This time, we&amp;rsquo;re excited to have the following talks:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;ldquo;&lt;strong&gt;&lt;a href="http://www.xanthir.com/talks/2015-03-11-bis/"&gt;Wrenching Open the Black Box of CSS&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;
-by &lt;a href="http://www.xanthir.com/blog/"&gt;Tab Atkins&lt;/a&gt;, HTML &amp;amp; CSS specification
-writer, Google, member of Chrome team&lt;/li&gt;
-&lt;li&gt;&amp;rsquo;&lt;strong&gt;&lt;a href="http://cordeliadillon.com/talks/TheMixin/accessibility/IveBeenDoingThisWrong.pdf"&gt;Accessibility 101, or &amp;ldquo;Oh gosh, I&amp;rsquo;ve been doing this wrong.&amp;rdquo;&lt;/a&gt;&lt;/strong&gt;&amp;rsquo;
-by &lt;a href="http://www.cordeliadillon.com/"&gt;Cordelia McGee-Tubb&lt;/a&gt;, Accessibility
-Specialist &amp;amp; UX Cartoonist, Salesforce UX&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="event-team"&gt;Event Team&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://jina.me/"&gt;Jina&lt;/a&gt; &amp;amp; &lt;a href="http://mikefowler.me/"&gt;Mike&lt;/a&gt; &amp;mdash; Emcees&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://twitter.com/salesforceux"&gt;Salesforce UX&lt;/a&gt; &amp;mdash; Host &amp;amp; Sponsor&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://presentate.com"&gt;Presentate&lt;/a&gt; &amp;mdash; Partner&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
