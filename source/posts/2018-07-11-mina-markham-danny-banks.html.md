@@ -10,7 +10,7 @@ Come hang out with us for this 12th edition of The Mixin, a San Francisco [Sass]
 We’ll have great talks. Tweeting about this event?
 Use hashtag: [#mixin112016][hashtag]
 
-[hashtag]: https://twitter.com/search?q=#mixin071118
+[hashtag]: https://twitter.com/search?q=#mixin112016
 
 **[Register on Eventbrite][tickets]**
 
